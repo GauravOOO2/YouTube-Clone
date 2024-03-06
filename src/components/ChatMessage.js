@@ -7,6 +7,7 @@ const ChatMessage = (props) => {
     <div>
         <span >{name}</span>
         <span >{Message}</span>
+       <p>Comment</p>
     </div>
   )
 }
