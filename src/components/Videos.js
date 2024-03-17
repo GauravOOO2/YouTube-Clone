@@ -24,10 +24,10 @@ const Videos = () => {
   },[])
 
   return (
-    <div className='flex felx-wrap'  >
+    <div className='flex flex-wrap  '  >
       {
         MostViewedList?.map((data)=>(
-          <Videocard
+          <Videocard 
           channelTitle={data?.snippet?.channelTitle}
           thumbnailId={data?.snippet?.thumbnails?.medium?.url}
           title={data?.snippet?.localized?.title}

@@ -54,22 +54,30 @@ const Header = () => {
   const searchText = useRef('')
 
   return (
-    <div className=' grid grid-cols-12 shadow-lg ' >
-      <div className=' col-span-3 flex pl-3 pt-3  ' >
+    <div className=' grid grid-cols-12 shadow-lg bg-white ' >
+      <div className=' col-span-3 flex  pl-3 pt-3  ' >
         <img className=' h-10 cursor-pointer  ' onClick={handlemenubar} src='https://th.bing.com/th/id/OIP.uwR4Qb-1cRgTN8aXQ6Ui6QHaHa?rs=1&pid=ImgDetMain'
           alt='Hamburger Menu'
         />
         
-          <img className='pl-6 h-14 pb-4' src='https://th.bing.com/th/id/R.1b1f83d5865411960498580b20d0ac95?rik=Hn1mQxA%2bFFxDUA&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fyoutube-logo-transparent-png%2fyoutube-logo-transparent-png-23.png&ehk=drIJjiijljpWioLcAwpzY6Sznq%2bzITPpttYeBZIv%2fv4%3d&risl=&pid=ImgRaw&r=0'
+          <img className='pl-6 h-14 pb-4' 
+          src='https://th.bing.com/th/id/R.1b1f83d5865411960498580b20d0ac95?rik=Hn1mQxA%2bFFxDUA&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fyoutube-logo-transparent-png%2fyoutube-logo-transparent-png-23.png&ehk=drIJjiijljpWioLcAwpzY6Sznq%2bzITPpttYeBZIv%2fv4%3d&risl=&pid=ImgRaw&r=0'
             alt='Logo'
           />
     
       </div>
-      <div className=' col-span-6  pt-3 ' >
-        < input ref={searchText} onChange={() => dispatch(addSearchText(searchText.current.value))} className=' border border-black ' />
-        <button className=' bg-gray-400 p-1 m-1 rounded-lg ' >
-          Button
+      <div className=' col-span-6  content-between	pl-10 ' >
+        <div className='flex flex-wrapper pt-3 pl-20 ' > 
+        < input ref={searchText} placeholder='Search your Video' onChange={() => dispatch(addSearchText(searchText.current.value))} 
+        className=' border border-black rounded-lg w-80 pl-5 ' />
+        <button className='ml-1 p-2 bg-red-500 text-white  rounded-lg' >
+          Search
         </button>
+        <img className=' h-9 pt-1  ' 
+        src='https://icon-library.com/images/google-voice-icon/google-voice-icon-21.jpg' 
+        alt='Recorder' />
+        
+        </div>
         <ul> {
           suggestions?.map((data,index)=>
           <li key={index} >{data}</li>
@@ -79,7 +87,7 @@ const Header = () => {
         </ul>
 
       </div>
-      <div className=' col-span-3 pt-3 ' >
+      <div className='col-span-3 flex items-center justify-end pr-3 pb-2' >
         <img className=' h-10 ' src='https://clipground.com/images/account-logo-png-7.png'
           alt='Account'
         />

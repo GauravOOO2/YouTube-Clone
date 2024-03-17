@@ -31,11 +31,20 @@ const Livechat = () => {
           message: liveMessage
         }))
         }}  >
-         <input onChange={(e)=>setLiveMessage(e.target.value)} className='border border-black' type='text' />
-         <button className='bg-gray-500 p-1 rounded-lg font-bold ' > Send </button>
+        <div className='flex flex-wrapper p-4' > 
+        < input  placeholder='Send your comment'  
+        className=' border border-black rounded-lg w-80 pl-3 ' />
+        <button className='ml-1 p-2 bg-red-500 text-white  rounded-lg ' >
+          Send
+        </button>
+        {/* <img className=' h-9 pt-1  ' 
+        src='https://icon-library.com/images/google-voice-icon/google-voice-icon-21.jpg' 
+        alt='Recorder' /> */}
+        
+        </div>
          
         </form>
-        <div className='border border-black p-[10rem]   ' >
+        <div className='  ' >
           {
             chatMessage.map((data,i)=>{
               <ChatMessage  key={i} name={data.name} Message={data.message} />
