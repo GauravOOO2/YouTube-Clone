@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Videocard = (props) => {
-  const {name,thumbnailId,channelTitle,title,id} = props
+  const {thumbnailId,channelTitle,title,id} = props;
 
 
   return (
@@ -14,8 +14,8 @@ const Videocard = (props) => {
     alt='Thumb nail'
     />
     <div>
-    <h3 className='text-lg font-semibold text-gray-800 pl-2 ' >Channel name: {channelTitle}</h3>
-    <p className='text-gray-600 mt-1 pl-2.5 ' > title: {title} </p>
+    <h3 className='text-lg font-semibold text-gray-800 pl-2 ' >Channel: {channelTitle}</h3>
+    <p className='text-gray-600 mt-1 pl-2.5 flex-wrap' > {title} </p>
     </div>
   </div>
   </Link>

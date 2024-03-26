@@ -74,7 +74,7 @@ const Header = () => {
           Search
         </button>
         <img className=' h-9 pt-1  ' 
-        src='https://icon-library.com/images/google-voice-icon/google-voice-icon-21.jpg' 
+        src='https://cdn2.iconfinder.com/data/icons/harmonicons-05/64/mike-512.png' 
         alt='Recorder' />
         
         </div>
