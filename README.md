@@ -32,22 +32,31 @@ Developing a user-friendly video streaming platform with advanced search functio
 
 
 
-## Run This Project in you machine 
+
+## Run Locally
+
+Clone the project in your machine
 
 ```bash
-  git clone "https://github.com/GauravOOO2/YouTube-Clone.git"
+  git clone https://github.com/GauravOOO2/YouTube-Clone.git
+```
+
+Go to the project directory
+
+```bash
   cd YouTube-Clone
 ```
 
-install dependencies 
+Install dependencies
 
 ```bash
-npm install
-yarn add
+  npm install
 ```
 
-run the project. 
+Start the server
+
 ```bash
-npm start
-yarn start
+  npm start
+  yarn start
 ```
+
