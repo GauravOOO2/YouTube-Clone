@@ -23,13 +23,6 @@ Developing a user-friendly video streaming platform with advanced search functio
 
 
 
-## API Reference
-
-#### Get all items
-
-```http
-  
-```
 
 
 ## 🔗 Links
