@@ -25,7 +25,7 @@ Developing a user-friendly video streaming platform with advanced search functio
 
 
 
-## 🔗 Links
+## 🔗API Links
 [YouTube API](https://developers.google.com/youtube/v3/getting-started)
 
 [Youtube's Search fetch API](https://developers.google.com/youtube/v3/docs/search/list)
