@@ -59,3 +59,32 @@ Start the server
   npm start
 ```
 
+
+
+
+## Screenshots
+
+Home Page
+
+![App Screenshot](https://gauravooo2.github.io/Gaurav_portfolio/Project_images/YouTubeHome.png)
+
+YouTube's Side Togle Off
+
+![App Screenshot](https://gauravooo2.github.io/Gaurav_portfolio/Project_images/YouTubeHomeNoToggle.png)
+
+Watch Page
+
+![App Screenshot](https://gauravooo2.github.io/Gaurav_portfolio/Project_images/YoutubeWatchPage.png)
+
+Watch Page Videos
+
+![App Screenshot](https://gauravooo2.github.io/Gaurav_portfolio/Project_images/YoutubeWatchPageVideoPlaying.png)
+
+Debouncing Concept in Search Bar
+
+![App Screenshot](https://gauravooo2.github.io/Gaurav_portfolio/Project_images/Debouncing.png)
+
+
+
+
+
